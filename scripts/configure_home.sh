@@ -8,3 +8,6 @@ echo "done"
 echo -n "Configure Xresources..."
 cp -a $CDIR/term/Xresources $HOME/.Xresources
 echo "done"
+echo -n "Configure bashrc..."
+cp -a $CDIR/term/bashrc $HOME/.bashrc
+echo "done"
